@@ -1,0 +1,134 @@
+/* pages/find/find.wxss */
+.top{
+  background-color:  #69C3AA;
+ height: 150px;
+ width: 100%;
+}
+
+
+
+.pic{
+  position: absolute; 
+  width: 400rpx;
+  height: 500rpx;
+}
+
+.pic2{
+  position: absolute; 
+    width: 900rpx;
+  height: 150rpx;
+}
+
+
+page{  
+  display: flex;  
+  flex-direction: column;  
+  height: 100%;  
+}  
+.navbar{  
+  flex: none;  
+  display: flex;  
+  background: #fff;  
+  font-size:10px;
+  
+}  
+.navbar .item{  
+  position: relative;  
+  flex: auto;  
+  text-align: center;  
+  line-height: 80rpx;  
+}  
+.navbar .item.active{  
+  color: #69C3AA;  
+}  
+.navbar .item.active:after{  
+  content: "";  
+  display: block;  
+  position: absolute;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  height: 4rpx;  
+  background: #69C3AA;  
+} 
+
+
+.scroll_box{
+width: 100%;
+height: 307rpx;
+overflow: hidden;
+padding: 20rpx;
+background: #f0f0f0;
+white-space: nowrap;
+}
+.item_list{
+width: 160rpx;
+height: auto;
+margin-right: 23rpx;
+display: inline-block;
+}
+
+
+.type-container{
+  width: 100%;
+  height: 88rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+.type-navbar{
+  white-space: nowrap;
+  height: 88rpx;
+  width: 100%;
+  background-color: #f1a83b;
+}
+.pic3{
+  position: absolute; 
+  width: 400rpx;
+  height: 500rpx;
+  margin-top: 15pt; 
+  margin-left: 70pt;
+}
+.wenzi{
+  text-align: center;
+  margin-top: 75pt; 
+}
+
+.confirm-btn {
+  background: #87CEFA;
+  color: #fff;
+  text-align: center;
+  margin-right: 0.8pt;
+  font-size: 13px;
+  width: 100px; 
+  height: 30px; 
+  display: inline-block
+}
+swiper {
+  height: 400rpx;
+  width: 100%;
+}
+
+
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.my-item{
+  width: 100%;
+  background: url(https://cdn.it120.cc/images/weappshop/arrow-right.png) no-repeat 750rpx center;
+  background-size: 16rpx auto,750rpx auto;
+  margin: 20rpx 0; 
+  border-bottom: 1px solid #eee;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 50rpx;
+
+}
+.scrollview{
+  width: 100%;
+}
+.fangfa{
+  width: 100%;
+}
+
+

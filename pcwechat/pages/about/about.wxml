@@ -1,0 +1,9 @@
+<view class="weapp-about">
+    <view class="weapp-name">PC小程序</view>
+    <view class="webapp-intro">
+        <view class="webapp-intro-item">
+            <view class="webapp-intro-title">作者</view>
+            <view class="webapp-intro-content">Wzb,Ljl</view>
+        </view>
+    </view>
+</view>

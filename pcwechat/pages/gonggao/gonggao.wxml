@@ -1,0 +1,15 @@
+<view class="container">
+
+<view class='top'>
+
+</view>
+
+  <view class="my-item" bindtap="1"><navigator url="pages/gonggao-details/gonggao-details" hover-class="navigator-hover"> </navigator></view>
+
+<view>
+<view><image class='pic3'  src="/imager/more/pcxiong2.png" ></image></view> 
+ <view class="wenzi">亲￣□￣｜｜~\n暂时没有更多公告了!</view>  
+</view>
+
+ 
+</view>

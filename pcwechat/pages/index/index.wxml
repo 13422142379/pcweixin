@@ -1,0 +1,34 @@
+<view class="container">
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+    <block wx:for="{{movies}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+<view>
+
+<view class='line'></view>
+
+
+  <view class='fuwu' style='color:#CD0000'> 
+     一\t服务项目\t一
+  </view>
+</view>
+
+  <view class="category">
+     <navigator class="category__item" url="/pages/1?id={{item.category_id}}" wx:for="{{category}}" wx:key="category_id" bindtap='1'>
+      <view>
+        <image src="{{item.icon}}" class="category__icon"></image>
+      </view>
+      {{item.title}}
+    </navigator> 
+  </view>
+
+
+   <view class="usermotto"> 
+        <image class="tubiao" src="/images/more/pcxiong2.png"></image>   
+        <text class="user-motto" decode="{{true}}">PC志愿者服务队</text> 
+  </view>
+    
+</view>
